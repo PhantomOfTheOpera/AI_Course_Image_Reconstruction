@@ -54,7 +54,7 @@ class RayTrace:
 
         pcd.paint_uniform_color([.5, .5, .5])
         pcd.estimate_normals()
-        o3d.io.write_point_cloud(f"input_data/{filename}_part_{index}.pcd", pcd)
+        o3d.io.write_point_cloud(f"data/input_data/{filename}_part_{index}.pcd", pcd)
 
     def slice_image(self):
         matrix = RayTrace.calculate_rotation_matrix(self.number_of_rotations)
