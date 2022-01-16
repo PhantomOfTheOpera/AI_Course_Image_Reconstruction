@@ -1,5 +1,5 @@
 # AI_Course_Image_Reconstruction
-## Artificial Intelligence course project
+## Artificial Intelligence Course Project
 
 ## Required Libraries:
 
